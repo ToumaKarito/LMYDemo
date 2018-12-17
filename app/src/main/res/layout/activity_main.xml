@@ -7,11 +7,16 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
             <TextView
                 style="@style/TextItem"
                 android:text="RecyclerView GridManager 拖拽"
                 android:onClick="dragRecyclerGrid"/>
+            <TextView
+                style="@style/TextItem"
+                android:text="RecyclerView GridManager 特殊的分割线"
+                android:onClick="recyclerGridSpecialLine"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

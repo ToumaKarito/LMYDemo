@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".drag_recycler_grid.DragRecyclerGridActivity"></activity>
+        <activity android:name=".drag_recycler_grid.DragRecyclerGridActivity" />
+        <activity android:name=".recycler_grid_special_line.RecyclerGridSpecialLineActivity"></activity>
     </application>
 
 </manifest>
