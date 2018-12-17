@@ -11,7 +11,7 @@
             <TextView
                 style="@style/TextItem"
                 android:text="RecyclerView GridManager 拖拽"
-                android:onClick="recyclerGridDrag"/>
+                android:onClick="dragRecyclerGrid"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
