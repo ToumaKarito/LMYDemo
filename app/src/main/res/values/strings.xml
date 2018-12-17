@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LMYDemo</string>
+    <string name="title_activity_recycler_grid_drag">RecyclerGridDragActivity</string>
+</resources>
