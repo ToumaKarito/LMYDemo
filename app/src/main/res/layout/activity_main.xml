@@ -17,6 +17,10 @@
                 style="@style/TextItem"
                 android:text="RecyclerView GridManager 特殊的分割线"
                 android:onClick="recyclerGridSpecialLine"/>
+            <TextView
+                style="@style/TextItem"
+                android:text="自定义下拉刷新搜索框View"
+                android:onClick="updateSearch"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

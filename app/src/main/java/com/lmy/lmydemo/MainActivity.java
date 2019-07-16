@@ -8,6 +8,7 @@ import android.view.View;
 import com.lmy.lmydemo.drag_recycler_grid.DragRecyclerGridActivity;
 import com.lmy.lmydemo.recycler_grid_special_line.RecyclerGridSpecialLineActivity;
 import com.lmy.lmydemo.recycler_grid_special_line.SpecialLineRecyclerView;
+import com.lmy.lmydemo.update_scroll_vew.UpdateSearchActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void recyclerGridSpecialLine(View view) {
         startActivity(new Intent(this,RecyclerGridSpecialLineActivity.class));
+    }
+
+    public void updateSearch(View view) {
+        startActivity(new Intent(this,UpdateSearchActivity.class));
     }
 }
